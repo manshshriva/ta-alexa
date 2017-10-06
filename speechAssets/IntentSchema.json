@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "USFirstName",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ],
+      "intent": "FirstNameCapture"
+    },
+    {
+      "slots": [
+        {
+          "name": "USFirstName",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ],
+      "intent": "DeleteProfile"
+    },
+    {
+      "slots": [
+        {
+          "name": "policy",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "PolicyNumber"
+    },
+    {
+      "slots": [
+        {
+          "name": "income",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "HouseHoldIncome"
+    },
+    {
+      "slots": [
+        {
+          "name": "age",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "CustomerAge"
+    },
+    {
+      "slots": [
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        }
+      ],
+      "intent": "CityNameCapture"
+    },
+    {
+      "slots": [
+        {
+          "name": "USLastName",
+          "type": "AMAZON.US_LAST_NAME"
+        }
+      ],
+      "intent": "LastNameCapture"
+    },
+    {
+      "slots": [
+        {
+          "name": "MessageToAgent",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "CallAgent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

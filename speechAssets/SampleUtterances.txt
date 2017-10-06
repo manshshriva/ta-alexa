@@ -1,0 +1,12 @@
+FirstNameCapture my first name is {USFirstName}
+LastNameCapture my last name is {USLastName}
+CityNameCapture My City name is {City}
+PolicyNumber my policy number is {policy}
+PolicyNumber my policy  is {policy}
+CustomerAge my age  is {age}
+CustomerAge I am  {age} years old
+DeleteProfile Delete My profile
+DeleteProfile Delete transamerica
+DeleteProfile Delete My data
+CallAgent please call agent {call me when you get a chance|MessageToAgent}
+CallAgent {send him message|MessageToAgent}

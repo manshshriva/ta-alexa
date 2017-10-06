@@ -1,0 +1,16 @@
+{
+  "name": "ta-alexa-skill",
+  "version": "1.0.0",
+  "description": "Transamerica Alexa Skills set",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "masrivas",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.14",
+    "serverless-offline": "^3.16.0",
+    "twilio": "^3.7.0"
+  }
+}
